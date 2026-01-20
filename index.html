@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Personal Budget Checker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your Personal Budget Checker</h1>
+        <div class="container-box">
+            <p>Monthly income:</p>
+            <input id="monthlyIncome" class="btn btn-primary" type="number" placeholder="Enter your monthly income." />
+            <p>Expenses:</p>
+            <input id="expense" class="btn btn-primary" type="number" placeholder="Enter your expenses." />
+
+            <button onclick="financialBalance()" id="balance-btn">Balance</button>
+
+            <span id="status"></span>
+        </div>
+    </div>
+
+    <script src="./logic/script.js"></script>
+</body>
+
+</html>
